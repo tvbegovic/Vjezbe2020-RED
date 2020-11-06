@@ -32,10 +32,10 @@ namespace Lista
             
         }
 
-        private void AzurirajListBox()
+        private void AzurirajListBox(List<string> lista = null)
         {
             lstPopis.DataSource = null;
-            lstPopis.DataSource = rijeci;
+            lstPopis.DataSource = lista ?? rijeci;
         }
 
         private void btnDodajNaPos_Click(object sender, EventArgs e)
@@ -78,5 +78,42 @@ namespace Lista
             rijeci.Clear();
             AzurirajListBox();
         }
-    }
+
+		private void btnSortAsc_Click(object sender, EventArgs e)
+		{
+            var sortiranaLista = rijeci.OrderBy(r => r);
+            AzurirajListBox(sortiranaLista.ToList());
+		}
+
+		private void btnSortDesc_Click(object sender, EventArgs e)
+		{
+            var sortiranaLista = rijeci.OrderByDescending(r => r);
+            AzurirajListBox(sortiranaLista.ToList());
+
+        }
+
+		private void btnTrazi_Click(object sender, EventArgs e)
+		{
+            var index = rijeci.FindIndex(r => r.Contains(txtTrazi.Text));
+            if(index < 0)
+			{
+                MessageBox.Show("Ne mogu naći traženi pojam");
+			}
+            else
+			{
+                lstPopis.SelectedIndex = index;
+			}
+		}
+
+		private void btnFilter_Click(object sender, EventArgs e)
+		{
+            var filtriranaLista = rijeci.Where(r => r.Contains(txtTrazi.Text));
+            AzurirajListBox(filtriranaLista.ToList());
+		}
+
+		private void btnOcistiFilter_Click(object sender, EventArgs e)
+		{
+            AzurirajListBox(rijeci);
+		}
+	}
 }
