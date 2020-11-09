@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brojevi", "Brojevi\Brojevi.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortiranjeRijeci", "SortiranjeRijeci\SortiranjeRijeci.csproj", "{D627008A-FD72-4ED0-A771-AC540C0B02FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista", "Lista\Lista.csproj", "{4609882F-0885-4B5E-95DC-A7EEA9CC6613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista", "Lista\Lista.csproj", "{4609882F-0885-4B5E-95DC-A7EEA9CC6613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igra_Klase", "Igra_Klase\Igra_Klase.csproj", "{F9D4A286-42F0-4602-85EF-14EB9345E303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{4609882F-0885-4B5E-95DC-A7EEA9CC6613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4609882F-0885-4B5E-95DC-A7EEA9CC6613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4609882F-0885-4B5E-95DC-A7EEA9CC6613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D4A286-42F0-4602-85EF-14EB9345E303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D4A286-42F0-4602-85EF-14EB9345E303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D4A286-42F0-4602-85EF-14EB9345E303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D4A286-42F0-4602-85EF-14EB9345E303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
