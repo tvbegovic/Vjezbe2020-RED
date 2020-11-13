@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortiranjeRijeci", "Sortira
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista", "Lista\Lista.csproj", "{4609882F-0885-4B5E-95DC-A7EEA9CC6613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Igra_Klase", "Igra_Klase\Igra_Klase.csproj", "{F9D4A286-42F0-4602-85EF-14EB9345E303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Igra_Klase", "Igra_Klase\Igra_Klase.csproj", "{F9D4A286-42F0-4602-85EF-14EB9345E303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

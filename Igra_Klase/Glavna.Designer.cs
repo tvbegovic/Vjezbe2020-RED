@@ -166,7 +166,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(846, 392);
+			this.ClientSize = new System.Drawing.Size(846, 451);
 			this.Controls.Add(this.btnUnesi);
 			this.Controls.Add(this.txtDatumIzdavanja);
 			this.Controls.Add(this.nazivLabel);
