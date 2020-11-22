@@ -44,11 +44,13 @@ namespace Igra_ListeObjekata_Datoteke
 			this.txtVrsta = new System.Windows.Forms.TextBox();
 			this.lstIgre = new System.Windows.Forms.ListBox();
 			this.btnUkloni = new System.Windows.Forms.Button();
+			this.btnSpremi = new System.Windows.Forms.Button();
+			this.btnUcitaj = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnUnesi
 			// 
-			this.btnUnesi.Location = new System.Drawing.Point(125, 173);
+			this.btnUnesi.Location = new System.Drawing.Point(126, 206);
 			this.btnUnesi.Name = "btnUnesi";
 			this.btnUnesi.Size = new System.Drawing.Size(233, 23);
 			this.btnUnesi.TabIndex = 29;
@@ -58,7 +60,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			// txtDatumIzdavanja
 			// 
-			this.txtDatumIzdavanja.Location = new System.Drawing.Point(534, 25);
+			this.txtDatumIzdavanja.Location = new System.Drawing.Point(535, 58);
 			this.txtDatumIzdavanja.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtDatumIzdavanja.Name = "txtDatumIzdavanja";
 			this.txtDatumIzdavanja.Size = new System.Drawing.Size(233, 23);
@@ -67,7 +69,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// nazivLabel
 			// 
 			this.nazivLabel.AutoSize = true;
-			this.nazivLabel.Location = new System.Drawing.Point(13, 28);
+			this.nazivLabel.Location = new System.Drawing.Point(14, 61);
 			this.nazivLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.nazivLabel.Name = "nazivLabel";
 			this.nazivLabel.Size = new System.Drawing.Size(39, 15);
@@ -76,7 +78,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			// txtNaziv
 			// 
-			this.txtNaziv.Location = new System.Drawing.Point(125, 25);
+			this.txtNaziv.Location = new System.Drawing.Point(126, 58);
 			this.txtNaziv.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtNaziv.Name = "txtNaziv";
 			this.txtNaziv.Size = new System.Drawing.Size(233, 23);
@@ -85,7 +87,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// idIzdavacLabel
 			// 
 			this.idIzdavacLabel.AutoSize = true;
-			this.idIzdavacLabel.Location = new System.Drawing.Point(428, 98);
+			this.idIzdavacLabel.Location = new System.Drawing.Point(429, 131);
 			this.idIzdavacLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.idIzdavacLabel.Name = "idIzdavacLabel";
 			this.idIzdavacLabel.Size = new System.Drawing.Size(49, 15);
@@ -95,7 +97,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// cijenaLabel
 			// 
 			this.cijenaLabel.AutoSize = true;
-			this.cijenaLabel.Location = new System.Drawing.Point(428, 58);
+			this.cijenaLabel.Location = new System.Drawing.Point(429, 91);
 			this.cijenaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.cijenaLabel.Name = "cijenaLabel";
 			this.cijenaLabel.Size = new System.Drawing.Size(43, 15);
@@ -104,7 +106,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			// txtCijena
 			// 
-			this.txtCijena.Location = new System.Drawing.Point(534, 55);
+			this.txtCijena.Location = new System.Drawing.Point(535, 88);
 			this.txtCijena.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtCijena.Name = "txtCijena";
 			this.txtCijena.Size = new System.Drawing.Size(233, 23);
@@ -113,7 +115,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// datumIzdavanjaLabel
 			// 
 			this.datumIzdavanjaLabel.AutoSize = true;
-			this.datumIzdavanjaLabel.Location = new System.Drawing.Point(428, 28);
+			this.datumIzdavanjaLabel.Location = new System.Drawing.Point(429, 61);
 			this.datumIzdavanjaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.datumIzdavanjaLabel.Name = "datumIzdavanjaLabel";
 			this.datumIzdavanjaLabel.Size = new System.Drawing.Size(98, 15);
@@ -123,7 +125,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// opisLabel
 			// 
 			this.opisLabel.AutoSize = true;
-			this.opisLabel.Location = new System.Drawing.Point(13, 58);
+			this.opisLabel.Location = new System.Drawing.Point(14, 91);
 			this.opisLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.opisLabel.Name = "opisLabel";
 			this.opisLabel.Size = new System.Drawing.Size(34, 15);
@@ -132,7 +134,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			// txtOpis
 			// 
-			this.txtOpis.Location = new System.Drawing.Point(125, 55);
+			this.txtOpis.Location = new System.Drawing.Point(126, 88);
 			this.txtOpis.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtOpis.Multiline = true;
 			this.txtOpis.Name = "txtOpis";
@@ -142,7 +144,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// idVrstaIgreLabel
 			// 
 			this.idVrstaIgreLabel.AutoSize = true;
-			this.idVrstaIgreLabel.Location = new System.Drawing.Point(13, 135);
+			this.idVrstaIgreLabel.Location = new System.Drawing.Point(14, 168);
 			this.idVrstaIgreLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.idVrstaIgreLabel.Name = "idVrstaIgreLabel";
 			this.idVrstaIgreLabel.Size = new System.Drawing.Size(59, 15);
@@ -151,7 +153,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			// txtIzdavac
 			// 
-			this.txtIzdavac.Location = new System.Drawing.Point(534, 95);
+			this.txtIzdavac.Location = new System.Drawing.Point(535, 128);
 			this.txtIzdavac.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtIzdavac.Name = "txtIzdavac";
 			this.txtIzdavac.Size = new System.Drawing.Size(233, 23);
@@ -159,7 +161,7 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			// txtVrsta
 			// 
-			this.txtVrsta.Location = new System.Drawing.Point(125, 132);
+			this.txtVrsta.Location = new System.Drawing.Point(126, 165);
 			this.txtVrsta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.txtVrsta.Name = "txtVrsta";
 			this.txtVrsta.Size = new System.Drawing.Size(233, 23);
@@ -169,14 +171,14 @@ namespace Igra_ListeObjekata_Datoteke
 			// 
 			this.lstIgre.FormattingEnabled = true;
 			this.lstIgre.ItemHeight = 15;
-			this.lstIgre.Location = new System.Drawing.Point(125, 237);
+			this.lstIgre.Location = new System.Drawing.Point(126, 270);
 			this.lstIgre.Name = "lstIgre";
 			this.lstIgre.Size = new System.Drawing.Size(352, 154);
 			this.lstIgre.TabIndex = 30;
 			// 
 			// btnUkloni
 			// 
-			this.btnUkloni.Location = new System.Drawing.Point(534, 237);
+			this.btnUkloni.Location = new System.Drawing.Point(535, 270);
 			this.btnUkloni.Name = "btnUkloni";
 			this.btnUkloni.Size = new System.Drawing.Size(118, 35);
 			this.btnUkloni.TabIndex = 31;
@@ -184,11 +186,33 @@ namespace Igra_ListeObjekata_Datoteke
 			this.btnUkloni.UseVisualStyleBackColor = true;
 			this.btnUkloni.Click += new System.EventHandler(this.btnUkloni_Click);
 			// 
+			// btnSpremi
+			// 
+			this.btnSpremi.Location = new System.Drawing.Point(14, 12);
+			this.btnSpremi.Name = "btnSpremi";
+			this.btnSpremi.Size = new System.Drawing.Size(132, 23);
+			this.btnSpremi.TabIndex = 32;
+			this.btnSpremi.Text = "Spremi u datoteku";
+			this.btnSpremi.UseVisualStyleBackColor = true;
+			this.btnSpremi.Click += new System.EventHandler(this.btnSpremi_Click);
+			// 
+			// btnUcitaj
+			// 
+			this.btnUcitaj.Location = new System.Drawing.Point(167, 12);
+			this.btnUcitaj.Name = "btnUcitaj";
+			this.btnUcitaj.Size = new System.Drawing.Size(167, 23);
+			this.btnUcitaj.TabIndex = 33;
+			this.btnUcitaj.Text = "Učitaj iz datoteke";
+			this.btnUcitaj.UseVisualStyleBackColor = true;
+			this.btnUcitaj.Click += new System.EventHandler(this.btnUcitaj_Click);
+			// 
 			// Glavna
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.btnUcitaj);
+			this.Controls.Add(this.btnSpremi);
 			this.Controls.Add(this.btnUkloni);
 			this.Controls.Add(this.lstIgre);
 			this.Controls.Add(this.btnUnesi);
@@ -228,6 +252,8 @@ namespace Igra_ListeObjekata_Datoteke
 		private System.Windows.Forms.TextBox txtVrsta;
 		private System.Windows.Forms.ListBox lstIgre;
 		private System.Windows.Forms.Button btnUkloni;
+		private System.Windows.Forms.Button btnSpremi;
+		private System.Windows.Forms.Button btnUcitaj;
 	}
 }
 
